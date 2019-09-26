@@ -1,3 +1,35 @@
-.sidenav-trigger{
+body {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+nav .nav-wrapper {
     background-color: #E3C0C0;
+    top: 0%;
+}
+
+.no-margin-bottom {margin-bottom:0px !important}
+
+.home {
+    background-color: #E3C0C0;
+    /* background-color: aqua; */
+    /* height: 600px; */
+    height: 573px;
+    display: flex;
+}
+
+.home-line {
+    border: white 2px solid;
+    width: 140vh;
+    height: 70vh;
+    /* align-self: center; */
+    /* margin: auto; */
+    margin-top: 65px;
+    text-align: center;
+    color: white;
+
+    /* width: 91%;
+    height: 95vh;
+    display: flex;
+    margin-left: 3rem; */
 }
