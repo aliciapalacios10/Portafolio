@@ -1,35 +1,77 @@
-body {
-    font-family: 'Quicksand', sans-serif;
-
-}
-
-nav .nav-wrapper {
+.nav-wrapper {
     background-color: #E3C0C0;
     top: 0%;
 }
 
-.no-margin-bottom {margin-bottom:0px !important}
+.no-margin-bottom {
+    margin-bottom: 0px !important
+}
+
+.home, .about-me {
+    width: 100vw;
+    height: 90vh;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
 
 .home {
     background-color: #E3C0C0;
-    /* background-color: aqua; */
-    /* height: 600px; */
-    height: 573px;
     display: flex;
 }
 
 .home-line {
     border: white 2px solid;
-    width: 140vh;
-    height: 70vh;
-    /* align-self: center; */
-    /* margin: auto; */
-    margin-top: 65px;
+    width: 78vw;
+    height: 77vh;
+    margin-top: 38px;
     text-align: center;
     color: white;
+    padding-top: 22%;
+}
 
-    /* width: 91%;
-    height: 95vh;
-    display: flex;
-    margin-left: 3rem; */
+.name {
+    font-size: 9vw;
+    /* font-weight: 600; */
+}
+
+.track {
+    font-size: 5vw;
+}
+
+.about-me {
+    padding: 6vw;
+}
+
+@media (min-width:500px) {
+    .home-line {
+        padding-top: 3%;
+    }
+
+    .name {
+        font-size: 7vw;
+    }
+
+    .track {
+        font-size: 3vw;
+    }
+}
+
+
+@media (min-width:768px) {
+    .home-line {
+        width: 83vw;
+        height: 67vh;
+        padding-top: 2%;
+        margin-top: 80px;
+    }
+
+    .name {
+        font-size: 4vw;
+    }
+
+    .track {
+        font-size: 2vw;
+
+    }
 }
