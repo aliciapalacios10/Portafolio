@@ -7,12 +7,14 @@
     margin-bottom: 0px !important
 }
 
-.home, .about-me {
+.home,
+.about-me {
     width: 100vw;
     height: 90vh;
     background-color: white;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    /* display: flex; */
 }
 
 .home {
@@ -25,7 +27,6 @@
     width: 78vw;
     height: 77vh;
     margin-top: 38px;
-    text-align: center;
     color: white;
     padding-top: 22%;
 }
@@ -41,19 +42,32 @@
 
 .about-me {
     padding: 6vw;
+    margin-top: 5rem;
 }
 
-@media (min-width:500px) {
+img {
+    margin: 20px;
+    width: 15vw
+}
+
+@media (min-width:425px) {
     .home-line {
-        padding-top: 3%;
+        padding-top: 20%;
     }
 
     .name {
-        font-size: 7vw;
+        font-size: 9vw;
     }
 
     .track {
-        font-size: 3vw;
+        font-size: 4vw;
+    }
+
+    .about-me {
+        /* padding: 6vw;
+        margin-top: 5rem; */
+        padding: 6vw;
+        margin-top: 8rem;
     }
 }
 
@@ -73,5 +87,22 @@
     .track {
         font-size: 2vw;
 
+    }
+
+    .about-me {
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        /* margin: 20px; */
+        width: 20vw;
+        margin-left: 6rem;
+    }
+
+    .text-about-me {
+        width: 46vw;
+        margin-left: 7rem;
+        font-size: 1.3rem;
     }
 }
