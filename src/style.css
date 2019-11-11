@@ -9,7 +9,8 @@
 
 .home,
 .about-me,
-.abilities {
+.abilities,
+.projects {
     width: 100vw;
     height: 90vh;
     background-color: white;
@@ -20,7 +21,6 @@
 
 .home {
     background-color: #E3C0C0;
-    /* background-color: #d4bfb1; */
     display: flex;
 }
 
@@ -44,12 +44,16 @@
 
 .about-me {
     padding: 6vw;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .personal-img {
     margin: 15px;
     width: 45vw
+}
+.tecnology {
+    display: flex;
+    justify-content: space-around;
 }
 
 .icon {
@@ -57,18 +61,23 @@
     font-size: 55px;
 }
  
-.abilities {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3%;
-    background-color: aqua;
-}
 .effect-zoom:hover {
     transform: scale(1.5);
     transition: transform 0.2s;
 }
 
-/* @media (min-width:425px) {
+.card-image {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    /* left: 0; */
+    /* right: 0; */
+    /* top: 0; */
+    /* bottom: 0; */
+    width: 100%;
+}
+
+@media (min-width:425px) {
     .home-line {
         padding-top: 20%;
     }
@@ -87,7 +96,7 @@
         padding: 6vw;
         margin-top: 8rem;
     }
-} */
+}
 
 
 @media (min-width:768px) {
