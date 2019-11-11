@@ -20,6 +20,7 @@
 
 .home {
     background-color: #E3C0C0;
+    /* background-color: #d4bfb1; */
     display: flex;
 }
 
@@ -46,27 +47,28 @@
     margin-top: 5rem;
 }
 
-img {
-    margin: 20px;
-    width: 15vw
+.personal-img {
+    margin: 15px;
+    width: 45vw
 }
 
 .icon {
     color: #E3C0C0;
-    font-size: 60px;
+    font-size: 55px;
 }
  
 .abilities {
     display: flex;
     justify-content: space-around;
     margin-top: 3%;
+    background-color: aqua;
 }
 .effect-zoom:hover {
     transform: scale(1.5);
     transition: transform 0.2s;
 }
 
-@media (min-width:425px) {
+/* @media (min-width:425px) {
     .home-line {
         padding-top: 20%;
     }
@@ -85,7 +87,7 @@ img {
         padding: 6vw;
         margin-top: 8rem;
     }
-}
+} */
 
 
 @media (min-width:768px) {
@@ -110,7 +112,7 @@ img {
         align-items: center;
     }
 
-    img {
+    .personal-img {
         /* margin: 20px; */
         width: 20vw;
         margin-left: 6rem;
