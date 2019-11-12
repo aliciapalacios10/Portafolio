@@ -76,6 +76,13 @@
     transition: transform 0.2s;
 }
 
+.abilities {
+    height: auto;
+}
+.icon-soft-kills{
+    width: 50%;
+}
+
 .projects-section {
     height: auto;
     padding: 1rem;
@@ -205,6 +212,7 @@ footer {
 
     .contact-icons {
         padding-top: 1%;
+        justify-content: center;
     }
     .social-icons{
         width: 50px;
