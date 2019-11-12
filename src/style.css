@@ -166,4 +166,18 @@
         width: 100px;
         margin-top: 30px;
     }
+
+    .projects {
+        display: flex;
+        justify-content: space-around;
+    }
+    .card {
+        width: 20rem;
+        height: 15rem;
+        background-color: aqua;
+    }
+    .card-image{
+        width: 100%;
+        height: 100%;
+    }
 }
