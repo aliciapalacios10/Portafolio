@@ -1,11 +1,17 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .nav-wrapper {
     background-color: #E3C0C0;
     top: 0%;
 }
 
-.no-margin-bottom {
+/* .no-margin-bottom {
     margin-bottom: 0px !important
-}
+} */
 
 .home,
 .about-me,
@@ -43,8 +49,13 @@
 }
 
 .about-me {
-    padding: 6vw;
+    /* paddi/ng: 6vw; */
     margin-top: 2rem;
+}
+
+.about-me p {
+    margin-top: 5vw;
+    padding: 5vw;
 }
 
 .personal-img {
@@ -54,6 +65,7 @@
 .tecnology {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 .icon {
@@ -77,8 +89,8 @@
     width: 100%;
 }
 
-@media (min-width:425px) {
-    .home-line {
+/* @media (min-width:425px) {
+    .home-line direction{
         padding-top: 20%;
     }
 
@@ -90,25 +102,25 @@
         font-size: 4vw;
     }
 
-    .about-me {
+    .about-me { */
         /* padding: 6vw;
         margin-top: 5rem; */
-        padding: 6vw;
+        /* padding: 6vw;
         margin-top: 8rem;
     }
-}
+} */
 
 
 @media (min-width:768px) {
     .home-line {
         width: 83vw;
         height: 67vh;
-        padding-top: 2%;
+        padding-top: 7%;
         margin-top: 80px;
     }
 
     .name {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .track {
@@ -119,6 +131,10 @@
     .about-me {
         display: flex;
         align-items: center;
+    }
+    .about-me p {
+        margin: 0;
+        padding: 0;
     }
 
     .personal-img {
@@ -131,5 +147,23 @@
         width: 46vw;
         margin-left: 7rem;
         font-size: 1.3rem;
+    }
+    .abilities {
+
+    }
+    .tecnology {
+        display: flex;
+        flex-direction: column;
+    }
+    .tecnology ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .tecnology ul li {
+        text-align: center;
+        width: 100px;
+        margin-top: 30px;
     }
 }
