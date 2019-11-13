@@ -194,6 +194,12 @@ footer {
         margin: 2rem;
         padding: 0;
     }
+    .about-me h5 {
+        align-self: flex-start;
+        position: absolute;
+        left: 45%;
+        margin-top: 4%
+    }
 
     .personal-img {
         /* margin: 20px; */
