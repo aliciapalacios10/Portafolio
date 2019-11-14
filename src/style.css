@@ -1,30 +1,13 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 .nav-wrapper {
     background-color: #E3C0C0;
     top: 0%;
 }
-
-
-/* ul#mobile-demo.sidenav {
-    width: 87%;
-    height: 100%;
-    font-family: 'Quicksand', sans-serif;
-
-} */
-
-/* .sidenav-overlay {
-    opacity: 0% !important
-} */
-
-
-/* .no-margin-bottom {
-    margin-bottom: 0px !important
-} */
 
 .home,
 .about-me,
@@ -48,7 +31,7 @@
     height: 77vh;
     margin-top: 38px;
     color: white;
-    padding-top: 10rem;
+    padding-top: 2.5rem;
 }
 
 .name {
@@ -61,10 +44,10 @@
 
 .about-me {
     margin-top: 2rem;
+    height: auto;
 }
 
 .about-me p {
-    /* margin-top: 3vw; */
     padding: 5vw;
 }
 
@@ -95,12 +78,16 @@
 }
 
 .soft-skills ul {
-    width: 52%;
+    width: 45%;
     height: 200px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 2.2rem;
+}
+
+.soft-skills ul li {
+    margin-left: 5%;
 }
 
 .icon-soft-kills {
@@ -198,7 +185,6 @@ footer {
         align-self: flex-start;
         position: absolute;
         left: 45%;
-        margin-top: 4%
     }
 
     .personal-img {
