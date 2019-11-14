@@ -156,14 +156,15 @@ footer {
 
 @media (min-width:700px) {
     .home-line {
-        width: 83vw;
-        height: 67vh;
-        padding-top: 0.5trm;
-        margin-top: 80px;
+        width: 85vw;
+        height: 70vh;
+        padding-top: 0.2rem;
+        margin-top: 63px;
     }
 
     .name {
         font-size: 5vw;
+
     }
 
     .track {
