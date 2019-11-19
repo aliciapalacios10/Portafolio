@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <!-- <header class="navbar-fixed"> -->
+  <header>
     <nav>
       <div class="nav-wrapper">
         <!-- <a href="#!" class="brand-logo">Alicia Palacios</a> -->
@@ -31,7 +31,7 @@
       </div>
     </nav>
 
-    <ul class="sidenav" id="mobile-demo" >
+    <ul class="sidenav" id="mobile-demo">
       <li><a href="#bottom-home">Inicio</a></li>
       <li><a href="#bottom-about-me">Acerca de mí</a></li>
       <li><a href="#bottom-abilities">Habilidades</a></li>
@@ -39,16 +39,17 @@
       <li><a href="#bottom-contact">Contacto</a></li>
     </ul>
 
-  <!-- </header> -->
+  </header>
 
-  <section class="home no-margin-bottom" id="bottom-home">
-    <section class="home-line row no-margin-bottom">
+  <section class="home" id="bottom-home">
+    <section class="home-line">
       <p class="name">Alicia Palacios</p>
       <!-- <p>Front End Developer & Graphic Designer</p> -->
       <p class="track">Desarrolladora Front-End</p>
       <p class="track">&</p>
       <p class="track">Diseñadora Gráfica</p>
     </section>
+
   </section>
 
   <section class="about-me" id="bottom-about-me">
@@ -66,6 +67,9 @@
         Mi objetivo es incursionar profesionalmente en
         el desarrollo web, busco un lugar donde pueda
         desarrollarme y aprender al máximo.</p>
+      <a class="waves-effect waves-light btn-small" href="Alicia-Palacios-C.V.pdf"
+        download="Alicia-Palacios-C.V.pdf">Descarga mi c.v</a>
+      <a class="waves-effect waves-light btn-small" href="Alicia-Palacios-C.V.pdf" target="_blank">Ver c.v</a>
     </section>
   </section>
 
@@ -81,7 +85,7 @@
       </ul>
       <ul>
         <li class="effect-zoom"><i class="devicon-github-plain icon"></i><h6>GITHUB</h6></li>
-        <li class="effect-zoom"><i class="devicon-git-plain icon"></i><h6>GIT</h6></li>
+        <li class="effect-zoom"><i class="devicon-git-plain icon"></i><h6>GIT</h6><i>
         <li class="effect-zoom"><i class="devicon-bootstrap-plain icon"></i><h6>BOOTSTRAP</h6></li>
         <li class="effect-zoom"><i class="devicon-photoshop-plain icon"></i><h6>PHOTOSHOP</h6></li>
         <li class="effect-zoom"><i class="devicon-illustrator-plain icon"></i><h6>ILLUSTRATOR</h6></li>
@@ -90,13 +94,22 @@
     <br>
     <section class="soft-skills">
       <h5>Habilidades Blandas</h5>
-        <ul>
-            <li class="efect-zoom"> <img class="icon-soft-kills" src="img/trabajo-en-equipo.png" alt="Trabajo en equipo"><h6>Trabajo en equipo</h6></li>
-            <li class="efect-zoom"> <img class="icon-soft-kills" src="img/adaptabilidad.png" alt=""><h6>Adaptabilidad</h6></li>
-            <li class="efect-zoom"> <img class="icon-soft-kills" src="img/comunicacion.png" alt=""><h6>Comunicación</h6></li>
-            <li class="efect-zoom"> <img class="icon-soft-kills" src="img/resolucion-de-problemas.png" alt=""><h6>Resolución de problemas</h6></li>
-            <!-- <li class="efect-zoom"><i class=" icon"></i><h6></h6></li> -->
-          </ul>
+      <ul>
+        <li class="efect-zoom"> <img class="icon-soft-kills" src="img/trabajo-en-equipo.png" alt="Trabajo en equipo">
+          <h6>Trabajo en equipo</h6>
+        </li>
+        <li class="efect-zoom"> <img class="icon-soft-kills" src="img/adaptabilidad.png" alt="Adaptabilidad">
+          <h6>Adaptabilidad</h6>
+        </li>
+        <li class="efect-zoom"> <img class="icon-soft-kills" src="img/comunicacion.png" alt="Comunicación">
+          <h6>Comunicación</h6>
+        </li>
+        <li class="efect-zoom"> <img class="icon-soft-kills" src="img/resolucion-de-problemas.png"
+            alt="Resolución de problemas">
+          <h6>Resolución de problemas</h6>
+        </li>
+        <!-- <li class="efect-zoom"><i class=" icon"></i><h6></h6></li> -->
+      </ul>
     </section>
   </section>
 
@@ -108,7 +121,6 @@
         <section class="card ">
           <section class="card-image">
             <img src="img/Mesereando.jpg" alt="Mesereando">
-            <!-- <span class="card-title">Labcar</span> -->
           </section>
           <section class="card-content">
             <span class="card-title">Mesereando</span>
@@ -130,7 +142,6 @@
         <section class="card">
           <section class="card-image">
             <img src="img/Sacbe.png" alt="Sacbé">
-            <!-- <span class="card-title">Sacbé</span> -->
           </section>
           <section class="card-content">
             <span class="card-title">Sacbé</span>
@@ -155,7 +166,6 @@
         <section class="card">
           <section class="card-image">
             <img src="img/Pokeguia.png" alt="Pokeguía">
-            <!-- <span class="card-title">Sacbé</span> -->
           </section>
           <section class="card-content">
             <span class="card-title">Pokeguía</span>
@@ -180,7 +190,6 @@
         <section class="card">
           <section class="card-image">
             <img src="img/Labcar.png" alt="Labcar">
-            <!-- <span class="card-title">Labcar</span> -->
           </section>
           <section class="card-content">
             <span class="card-title">Labcar</span>
@@ -200,12 +209,13 @@
 
     </section>
   </section>
-  <!-- <li class="effect-zoom"><i class="devicon-github-plain icon"></i></li> -->
   <footer class="contact" id="bottom-contact">
     <ul class="contact-icons">
-      <li><a href=""><img class="social-icons" src="img/github-logo.png" alt="Github"></a></li>
-      <li><a href=""><img class="social-icons" src="img/linkedin.png" alt="Linkedin"></a></li>
-      <li><a href=""><img class="social-icons" src="img/envelope.png" alt="Correo"></a></li>
+      <li><a href="https://github.com/aliciapalacios10" target="_blanck"><img class="social-icons"
+            src="img/github-logo.png" alt="Github"></a></li>
+      <li><a href="https://www.linkedin.com/in/alicia-palacios/" target="_blanck"><img class="social-icons"
+            src="img/linkedin.png" alt="Linkedin"></a></li>
+      <li><a href=""><img class="social-icons" target="_blanck" src="img/envelope.png" alt="Correo"></a></li>
     </ul>
   </footer>
 

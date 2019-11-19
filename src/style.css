@@ -14,7 +14,8 @@
 .abilities,
 .projects-section {
     width: 100vw;
-    height: 90vh;
+    /* height: 90vh; */
+    height: auto;
     background-color: white;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -23,37 +24,42 @@
 .home {
     background-color: #E3C0C0;
     display: flex;
+    /* width: 100vw; */
 }
 
 .home-line {
     border: white 2px solid;
     width: 78vw;
     height: 77vh;
-    margin-top: 38px;
     color: white;
     padding-top: 2.5rem;
+    margin: 1.5rem 2rem;
 }
 
 .name {
-    font-size: 9vw;
+    font-size: 2.3rem;
 }
 
 .track {
-    font-size: 5vw;
+    font-size: 1.2rem;
 }
 
-.about-me {
+/* .about-me {
     margin-top: 2rem;
     height: auto;
-}
-
-.about-me p {
-    padding: 5vw;
-}
+} */
 
 .personal-img {
     margin: 5px;
-    width: 70vw
+    width: 70vw;
+}
+
+.about-me p {
+    padding: 0px 20px;
+}
+
+.btn-small {
+    background-color: #E3C0C0 !important;
 }
 
 .tecnology {
@@ -65,7 +71,7 @@
 
 .icon {
     color: #E3C0C0;
-    font-size: 55px;
+    font-size: 3rem;
 }
 
 .effect-zoom:hover {
@@ -73,9 +79,9 @@
     transition: transform 0.2s;
 }
 
-.abilities {
+/* .abilities {
     height: auto;
-}
+} */
 
 .soft-skills ul {
     width: 45%;
@@ -87,7 +93,7 @@
 }
 
 .soft-skills ul li {
-    margin-left: 5%;
+    margin-left: 1rem;
 }
 
 .icon-soft-kills {
@@ -95,7 +101,7 @@
 }
 
 .projects-section {
-    height: auto;
+    /* height: auto; */
     padding: 1rem;
 }
 
@@ -107,10 +113,6 @@
     display: block;
     border-radius: 2px 2px 0 0;
     position: relative;
-    /* left: 0; */
-    /* right: 0; */
-    /* top: 0; */
-    /* bottom: 0; */
     width: 100%;
 }
 
@@ -155,20 +157,23 @@ footer {
 
 
 @media (min-width:700px) {
+
+
     .home-line {
         width: 85vw;
         height: 70vh;
-        padding-top: 0.2rem;
-        margin-top: 63px;
+        margin-top: 4rem;
+        margin: 4rem 6rem;
     }
 
     .name {
-        font-size: 5vw;
+        font-size: 5rem;
+        margin: 0;
 
     }
 
     .track {
-        font-size: 2vw;
+        font-size: 2rem;
     }
 
     .about-me {
@@ -180,6 +185,7 @@ footer {
         margin: 2rem;
         padding: 0;
     }
+
     .about-me h5 {
         align-self: flex-start;
         position: absolute;
@@ -225,7 +231,6 @@ footer {
     .card {
         width: 20rem;
         height: 15rem;
-        /* background-color: aqua; */
     }
 
     .contact-icons {
