@@ -46,7 +46,7 @@
     padding: 0px 20px;
 }
 
-.btn-small {
+.btn-small{
     background-color: #E3C0C0 !important;
     margin: 3%;
 }
@@ -125,8 +125,8 @@ footer {
 
 .contact-icons p {
     font-family: 'Quicksand', sans-serif;
-    font-size: medium;
     color: white;
+    font-size: medium;
 }
 
 @media (min-width:700px) {
@@ -172,6 +172,12 @@ footer {
         width: 46vw;
         margin-left: 5rem;
         font-size: 1.3rem;
+    }
+
+    .btn-small {
+        height: 32.4px;
+        line-height: 32.4px;
+        font-size: 13px;
     }
 
     .tecnology {
