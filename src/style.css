@@ -46,7 +46,7 @@
     padding: 0px 20px;
 }
 
-.btn-small{
+.btn-small {
     background-color: #E3C0C0 !important;
     margin: 3%;
 }
@@ -197,6 +197,10 @@ footer {
         margin-top: 30px;
     }
 
+    .soft-skills ul {
+        width: 25%;
+    }
+
     .projects {
         display: flex;
         justify-content: space-around;
@@ -209,19 +213,23 @@ footer {
         height: 15rem;
     }
 
+    .card-action a {
+        /* color: #E3C0C0 !important; */
+        color: black !important;
+        /* font-size: larger; */
+        /* font-weight: 600; */
+
+    }
+
     .contact-icons {
         padding-top: 1%;
         justify-content: center;
     }
-
+    
     .social-icons {
-        width: 50px;
-        height: 50px;
-
-    }
-
-    .soft-skills ul {
-        width: 25%;
+        width: 55px;
+        height: 55px;
+        padding: 10%;        
     }
 
 }
