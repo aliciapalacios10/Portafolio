@@ -175,9 +175,9 @@ footer {
     }
 
     .btn-small {
-        height: 32.4px;
+        height: 35px !important;
         line-height: 32.4px;
-        font-size: 13px;
+        font-size: 15px !important;
     }
 
     .tecnology {
